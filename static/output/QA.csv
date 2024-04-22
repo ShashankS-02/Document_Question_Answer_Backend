@@ -1,0 +1,33 @@
+Question,Answer
+1. What is Shashank Shandilya's current educational status and where is he studying?,Shashank Shandilya is currently an undergraduate student studying Computer Science and Engineering at The National Institute of Engineering since January 2021.
+2. What is the CGPA of Shashank Shandilya in his Under Graduate program at The National Institute of Engineering?,Shashank Shandilya has a CGPA of 7.5 in his Under Graduate program at The National Institute of Engineering.
+3. Describe the Zoo Management System project that Shashank Shandilya worked on. What tools did he use for this project?,"Shashank Shandilya worked on a Zoo Management System project where he designed and implemented a web application that converted the physical functions of a zoo into a digital version. He designed all the pages, including the landing page, using prebuilt and custom components. Shashank also constructed an ER diagram to connect all the required functionalities of the product, created a database, and wrote queries to insert, delete, and fetch data from the database. Additionally, he wrote code to host and connect the webpages and the database. The tools used for this project were HTML, CSS, jQuery, Flask, MySQL, SQL, and Bootstrap."
+4. What is the Sindhoor Ventures Website project about and what tools did Shashank Shandilya use for this project?,"The Sindhoor Ventures Website project is a website being built for a company in Mysuru. Shashank Shandilya designed webpages, including the homepage and other pages showcasing the company's products and services. He also created a database to store entries from their newsletter subscription page. The tools used for this project were HTML, CSS, React, MongoDB, and Tailwind."
+5. Explain the Ant Colony Optimization on SVM and K-NN project that Shashank Shandilya worked on. What tools did he use for this project?,"Shashank Shandilya worked on a project involving Ant Colony Optimization (ACO) applied to Support Vector Machine (SVM) and K-Nearest Neighbors (K-NN) classification algorithms. In this project, he fetched a dataset from Kaggle that already had ACO applied to it. He then trained the machine learning model using SVM and K-NN algorithms on this dataset. The results obtained were compared with the results from applying SVM and K-NN algorithms to a dataset without ACO. The efficiency of both algorithms was represented graphically to show the increase in efficiency due to ACO.
+
+Tools used for this project:
+- Python
+- Matplotlib
+- Scikit-learn (sklearn)
+- Pandas
+- NumPy"
+6. What skills does Shashank Shandilya possess according to the information provided?,"According to the information provided, Shashank Shandilya possesses the following skills:
+
+1. Data Structures and Algorithms
+2. HTML
+3. CSS
+4. JavaScript
+5. C++
+6. OOP (Object-Oriented Programming)
+7. Python
+8. Web Development
+9. SQL
+10. MySQL
+11. Tailwind
+12. Problem Solving
+
+These are the skills mentioned in Shashank Shandilya's profile."
+7. What languages is Shashank Shandilya proficient in?,"Shashank Shandilya is proficient in English, Kannada, and Hindi languages."
+8. What are some of Shashank Shandilya's interests?,"Some of Shashank Shandilya's interests include fitness, touring, marketing, finance, photography, entrepreneurship, and music."
+9. Can you list some of the courses that Shashank Shandilya has taken?,"Based on the provided information, there is no specific list of courses that Shashank Shandilya has taken mentioned in the context."
+10. How can Shashank Shandilya be contacted?,Shashank Shandilya can be contacted via email at shashankshandiliya2002@gmail.com or by phone at +91 6361377960.
