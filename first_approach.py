@@ -9,8 +9,6 @@ from langchain.text_splitter import CharacterTextSplitter
 import nltk
 nltk.download("punkt")
 
-os.environ["OPENAI_API_KEY"] = "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"
-
 loader = UnstructuredFileLoader("/Users/shashankshandilya/Projects/Question-Answer-Generation-App-main/static/docs/Shashank's Resume (1).pdf")
 documents= loader.load()
 
