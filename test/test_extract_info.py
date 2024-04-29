@@ -39,7 +39,6 @@ def extracted_data_sets():
 ])
 def test_extract_info_consistency(file_path, extracted_data_sets):
 
-    accuracy = 5 - (random.uniform(0.2, 0.4)) / 5
     """Tests extract_info function for consistency across multiple runs using sets."""
     data_set = extracted_data_sets[file_path]
 
@@ -56,7 +55,6 @@ def test_extract_info_consistency(file_path, extracted_data_sets):
     )
     consistent_runs = sum(data == reference_set for data in data_set)
     print(f"\nConsistent Runs for {file_path}: {consistent_runs} out of {MIN_RUNS}")
-    print(f"\n Therefore the accuracy is : " + str(accuracy))
 
 
 

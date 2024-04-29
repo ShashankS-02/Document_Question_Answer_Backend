@@ -35,6 +35,7 @@ def extract_info():
     documents = loader.load()
 
     text_splitter = CharacterTextSplitter(chunk_size=800, chunk_overlap=0)
+    i = "in this resume"
     texts = text_splitter.split_documents(documents)
 
     # embeddings = OpenAIEmbeddings(openai_api_key=os.environ["OPENAI_API_KEY"], model="text-embedding-3-small")
@@ -59,13 +60,22 @@ def extract_info():
     # query = "Any three skills? Separate them with only space. If not available return N/A"
     # three_skills = chain.run(query)
 
+    parameter = "Candidate Name " + i + "?" + d
+    candidate_name = chain.run(parameter)
+
+    parameter = "Mobile Number " + i + "?" + d
+    mobile_number = chain.run(parameter)
+
+    parameter = "email id " + i + "?" + d
+    mail_id = chain.run(parameter)
+
     parameter = "Highest education or highest qualification?" + rq
     qualification = chain.run(parameter)
 
     parameter = m + "College Name?"
     college_name = chain.run(parameter)
 
-    parameter = "Any three skills?" + r
+    parameter = "Any three skills " + i + "?" + r
     three_skills = chain.run(parameter)
 
     # data_obj["candidate_name"] = candidate_name
@@ -74,6 +84,9 @@ def extract_info():
     # data_obj["skills"] = three_skills
     # return data_obj
 
+    data_obj["Candidate Name"] = candidate_name
+    data_obj["Mobile Number"] = mobile_number
+    data_obj["Email"] = mail_id
     data_obj["Highest Qualification"] = qualification
     data_obj["College Name"] = college_name
     data_obj["Skills"] = three_skills
